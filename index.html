@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="css/stilo.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container__contenido">
+            <div class="container__informaciones">
+                <div class="container__texto">
+                    <h1></h1>
+                    <p id="contexto" class="texto__parrafo"></p>
+                </div>
+                <input type="text" id="texto" min="1" max="10" class="container__input" required="True">
+                <div class="chute container__botones">
+                    <button onclick="criptar()" class="container__boton">Encriptar</button>
+                    <button onclick="descriptar()" class="container__boton" id="reiniciar">Desencriptar</button>
+                    <button onclick="copy()" class="container__boton" id="copiar" >copiar</button>
+                </div>
+                
+            </div>
+            <img src="img/samurai_.png" alt="Una persona mirando a la izquierda" class="container__imagen-persona" />
+        </div>
+    </div>
+    <!--
+    <section class="fondo">
+
+            <div class="contenedor">
+        
+
+                <div class="alura">
+                <h1 class="titulo">Encriptador de texto</h1>
+                </div>
+            
+                <div class="izquierdo">
+                <input type="text" class="texto" id="texto" placeholder="Introduzca el texto">
+                </div>
+        
+                <div class="derecho">
+                <img src="img/acceso.png" id="boveda">
+                <h2 class="textodos"id="textodos">Ningun mensaje encriptado</h2>
+                <textarea id="textarea" cols="80" rows="8">Ingrese el texto a encriptar o desencriptar.</textarea>
+                <button id="copiar" type="button" name="button" onclick="copy()" > ¿Copiar? </button>
+                </div>
+    
+                <div class="botones">
+
+                <p class="condicional"><img src="img/buda.png" class="regla"> Solo letras minusculas y sin acentos</p>
+                <button type="button" id="codifique" onclick="criptar()">Encriptar</button>
+                <button type="button" id="decodifique" onclick="descriptar()">Desencriptar</button>
+                </div>    
+            </div>
+        </section>
+    -->
+    
+
+        
+        <script src="js/script.js" ></script>
+        
+</body>
+</html>
